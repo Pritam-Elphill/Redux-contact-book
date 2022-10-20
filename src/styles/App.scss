@@ -1,0 +1,20 @@
+.actions {
+  a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #222;
+  }
+  .material-icons {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+tr:hover {
+  a:hover {
+    color: #555;
+  }
+  .material-icons {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
